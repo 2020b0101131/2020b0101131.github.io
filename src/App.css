@@ -1,3 +1,10 @@
+div.first {
+  border: 2px solid black;
+  width: 346px;
+  color: black;
+  background-color: lightgray;
+  
+}
 .App {
   text-align: center;
 }
@@ -5,10 +12,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-top: 60px;
 }
-
-
-
 
 .App-header {
   background-color: lightgray;
@@ -18,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:black;
 }
 
 .App-link {
@@ -26,3 +31,37 @@
 }
 
 
+div.inputBox {
+  border: 2px solid white;
+  border-radius: 30px;
+  margin-top: 30px;
+  width: 260px;
+  padding: 10px;
+  background-color: white;
+}
+div.continueButton {
+  border: 2px solid #FFBD59;
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color:#FFBD59;
+  width: 260px;
+  text-align:center;
+  
+}
+div.lastLine {
+  text-align:center;
+  padding-top: 50px;
+}
+div.lastLine2 {
+  text-align:center;
+  font-weight: bold;
+  color:#FFBD59
+}
+div.lastLine3 {
+  border: 2px solid black;
+  width: 320px;
+  margin-top: 10px;
+  color: black;
+  
+}
